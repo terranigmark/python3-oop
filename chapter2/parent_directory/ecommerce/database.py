@@ -1,8 +1,13 @@
 
 class Database:
+    # The database implementation
     pass
 
 class Query:
     pass
 
-db = Database
+database = None
+
+def initialize_database():
+    global database
+    database = Database()
