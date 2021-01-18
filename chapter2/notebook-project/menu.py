@@ -54,7 +54,7 @@ class Menu:
     def add_note(self):
         memo = input("Enter a memo: ")
         self.notebook.new_note(memo)
-        print(f"Your note has been added.")
+        print("Your note has been added.")
 
     def modify_note(self):
         id = input("Enter a note id: ")
